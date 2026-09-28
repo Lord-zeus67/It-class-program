@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>register</title>
+  </head>
+  <body>
+  <div>
+   <img src="https://placeholder.com" alt="company logo" /> 
+  </div>
+  <h2>create an account</h2>
+   <main>
+   <form action="#" method="POST"> 
+  <fieldset>
+          <legend>please kindly input your details</legend>
+          <div>
+            <label for="username">username:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              pattern="[A-Za-z]"
+              title="example: henry"
+              required
+            />
+          </div>
+
+          <br>
+          <div>
+            <label for="email">email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              pattern="[A-Za-z]{2}\d{6}"
+              title="example:basoenezoe224@gmail.com"
+              required
+            />
+          </div>
+            
+           <br>
+          <div>
+            <label for="phone">contact/phone number:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="{2}\d{6}"
+              title="08143384475"
+              required
+            />
+          </div>
+           
+          <br>
+          <div>
+            <label for="password">password:</label>
+            <input
+              type="text"
+              id="password"
+              name="password"
+              pattern="[A-Za-z]{2}\d{6}"
+              title="example:asha67#@"
+              required
+            />
+
+          <br>
+          <div>
+            <label for="confirm password">confirm password:</label>
+            <input
+              type="text"
+              id="confirm-password"
+              name="confirm_password"
+              pattern="[A-Za-z]{2}\d{6}"
+              title="example:asha67#@"
+              required
+            />
+             
+        </fieldset>
+        <br>
+          <button type="submit">register</button>
+
+ <p>Already have an account? <a href="login.html">Login</a></p>
+
+   </form>
+</main>
+  </body>

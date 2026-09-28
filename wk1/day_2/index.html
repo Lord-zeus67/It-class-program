@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>student Enrollment form and DOM Mapping</title>
+  </head>
+  <body>
+    <header>
+      <h1>software Engineering IT Enrollment</h1>
+    </header>
+
+    <main>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Trainee identify</legend>
+          <div>
+            <label for="matricnumber">University Matricaultion No:</label>
+            <input
+              type="text"
+              id="matricNumber"
+              name="matricnumber"
+              pattern="[A-Za-z]{2}\d{6}"
+              title="example: CS123456"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="dob"> date of birth:</label>
+            <input type="date" id="dob" max="2010-01-01" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>curriculum preferences</legend>
+          <div>
+            <label for="track">primary Track:</label>
+            <select name="track" id="track" required>
+              <option value="" disabled selected>select Track...</option>
+              <option value="frontend">frontend Engineering</option>
+              <option value=" backend">backend Architecture</option>
+              <option value="Full-stack">fullstack Development</option>
+            </select>
+          </div>
+
+          <div>
+            <p>programming Languages known</p>
+            <label for="checkbox">
+              <input type="checkbox" name="Languages" value="python" />python
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="Languages" value="c" />c/++
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="Languages" value="Javascript" />Javascript
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

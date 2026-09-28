@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>account login page</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="https://placeholder.com" alt="company logo" />
+      </div>
+      <h2>account login page</h2>
+    </header>
+
+    <main>
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>details</legend>
+          <div>
+            <label for="name">name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              pattern="[A-Za-z]"
+              title="example: henry"
+              required
+            />
+          </div>
+
+          <br>
+          <div>
+            <label for="dob"> date of birth:</label>
+            <input type="date" id="dob" max="2010-01-01" />
+          </div>
+
+          <br>
+          <div>
+            <label for="email">email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              pattern="[A-Za-z]{2}\d{6}"
+              title="example:basoenezoe224@gmail.com"
+              required
+            />
+          </div>
+            
+          <br>
+          <div>
+            <label for="password">password:</label>
+            <input
+              type="text"
+              id="password"
+              name="password"
+              pattern="[A-Za-z]{2}\d{6}"
+              title="example:asha67#@"
+              required
+            />
+            
+        </fieldset>
+        <br>
+          <button type="submit">login</button>
+      </form>
+    </main>
+    <p>dont have an account? <a href="regiser.html">Register here</a></p>
+  </body>
+</html>
