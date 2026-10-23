@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height:1.6;
+    color: orangered; /* Hex code */
+    padding:30px;
+    background-color: rgb(1, 34, 22);
+}
+
+header {background-color: rgb(245, 245, 220);
+        color: blueviolet;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+}
+ header h1 {
+ font-size: 2.5rem;
+ margin-bottom: 1rem;
+}
+ 
+header p {
+font-style: italic;
+margin-bottom: 1rem;
+color: brown;
+}
+
+nav ul {
+list-style: none;
+margin-top: 1rem;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    transition: colour 0.8s ease-in-out;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li a:hover {
+    color: aquamarine;
+}
+
+section {
+background-color: aliceblue;
+padding: 2rem;
+margin-bottom: 1.5rem;
+border-radius: 7px;
+border-style: groove;
+box-shadow: inset;
+
+}
+.task-class {
+background-color: white;
+color: black;
+padding: 15px;
+border: 5px solid grey
+
+}
+
+.task-class.urgent{
+background-color:rgb(167, 38, 38);
+border-style: ;
+}
