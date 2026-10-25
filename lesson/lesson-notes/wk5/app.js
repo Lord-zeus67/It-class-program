@@ -1,8 +1,11 @@
-import './numbers.js'
+import './number.js'
 import './strings.js'
 import './typeCasting.js'
 import './operators.js' 
-import './ifStatments.js' 
+import './ifStatements.js'
+import './test.js'
+import './functions.js'
+import './working.js'
 
 
 // Data types
