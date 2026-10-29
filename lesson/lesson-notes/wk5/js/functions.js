@@ -90,4 +90,3 @@ const minNumber = (arr) => {
 };
 
 console.log(minNumber(list));
-

@@ -48,4 +48,4 @@ else if ( TicketAge >= 5 && TicketAge <= 17) {
 
 else {
     console.log("Ticket is $10");
-}
+} 

@@ -28,4 +28,3 @@ const userScore = 432;
 const percentage = (Number(userScore) / maxScore) * 100.0;
 
 // console.log("User's percentage is: " + percentage.toFixed(3));
-
